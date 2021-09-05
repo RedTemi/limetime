@@ -4,7 +4,7 @@
     <option value="all">Showing all</option>
     <option v-for="option in categories" :key="option"  :value="option">{{option}}</option>
   </select>
-    <div class="flex flex-row flex-wrap md:w-11/12 lg:w-10/12 mx-auto" >
+    <div class="flex flex-row flex-wrap md:w-11/12 lg:w-10/12 mx-auto justify-center" >
       <productView :products="productss" />
     </div>
   <div class="flex justify-center text-center">
